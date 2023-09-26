@@ -196,13 +196,61 @@
 // If it is divisible by both 3& 5 , Print FizzBuzz
 // Otherwise , print nothing
 
-let number = 16;
-if(number % 3 === 0 && number % 5 ===0){
-  console.log("FizzBuzz");
-}else if(number % 3 === 0){
-  console.log("Fizz");
-}else if(number % 5 === 0){
-  console.log("Buzz");
-}else{
-  console.log("Nothing");
-}
+// let number = 15;
+// if(number % 3 === 0 && number % 5 ===0){
+//   console.log("FizzBuzz");
+// }else if(number % 3 === 0){
+//   console.log("Fizz");
+// }else if(number % 5 === 0){
+//   console.log("Buzz");
+// }else{
+//   console.log("Nothing");
+// }
+// console.log(number % 3 === 0 && number % 5 ===0 
+//   ? "FizzBuzz" 
+//   :number % 3 === 0 
+//   ? "Fizz"
+//   :number % 5 === 0
+//   ? "Buzz" 
+//   :"Nothing"
+//   );
+
+// Problem : Our Grading System 
+
+// let number = 0;
+
+// if(number >= 80 && number <= 100){
+//   console.log("A+");
+// }else if(number > 70 && number <= 79){
+//   console.log("A");
+// }else if(number >= 60 && number <= 69){
+//   console.log("A-");
+// }else if(number >= 50 && number <= 59){
+//   console.log("B");
+// }else if(number >= 40 && number <= 49){
+//   console.log("C");
+// }else if(number >= 33 && number <= 39){
+//   console.log(D);
+// }else if(number >= 0 && number <= 32){
+//   console.log("F");
+// }else{
+//   console.log("Invalid");
+// }
+
+
+// Take a number
+// number > 0
+// number === 0
+// number < 0
+
+// let number = -1;
+// switch(true){
+//   case number > 0:
+//   console.log("This is a positive number");
+//   break;
+//   case number === 0:
+//     console.log("This is zero number");
+//     break;
+//   case number < 0 :
+//     console.log("This is a negative number");
+// }
