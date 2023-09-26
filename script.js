@@ -254,3 +254,51 @@
 //   case number < 0 :
 //     console.log("This is a negative number");
 // }
+
+
+// For Loops 
+
+// console.log("Hello mate!");
+// for (let index = 1; index <= 5; index++){
+//   console.log("Hello mate!", index);
+// }
+// for (let index = 5; index >= 1; index--){
+//   console.log("Hello mate!", index);
+// }
+
+// While Loops 
+// let index = 1;
+
+// while(index <= 5){
+//   console.log("Hello mate", index);
+//   index++;
+// }
+
+// Do..While Loops 
+
+// let service = 100;
+
+// do{
+//   console.log("Hello mate!", service);
+//   service++;
+// }while(service <= 5);
+
+
+// For..In Loops
+
+const objs = {
+  name: "Florin",
+  age: 31,
+}
+
+for(let key in objs){
+  console.log(key, objs[key]);
+}
+
+let numbers = [1, 2, 3, 4, 5];
+
+console.log(numbers);
+
+for(let index in numbers){
+  console.log(index,numbers[index]);
+}
