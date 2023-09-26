@@ -177,14 +177,32 @@
 // Ternary Operator.
 
 
-let number1 = 10;
-let number2 = 2;
+// let number1 = 10;
+// let number2 = 2;
 
-let maxValue;
-if(number1 > number2){
-  maxValue = number1;
+// let maxValue;
+// if(number1 > number2){
+//   maxValue = number1;
+// }else{
+//   maxValue = number2;
+// }
+// let max = number1 > number2 ? number1 : number2;
+// console.log(max);
+
+// Problem FizzBuzz
+// Take a number
+// If it is divisible by 3 , Print Fizz
+// If it is divisible by 5 , Print Buzz
+// If it is divisible by both 3& 5 , Print FizzBuzz
+// Otherwise , print nothing
+
+let number = 16;
+if(number % 3 === 0 && number % 5 ===0){
+  console.log("FizzBuzz");
+}else if(number % 3 === 0){
+  console.log("Fizz");
+}else if(number % 5 === 0){
+  console.log("Buzz");
 }else{
-  maxValue = number2;
+  console.log("Nothing");
 }
-let max = number1 > number2 ? number1 : number2;
-console.log(max);
