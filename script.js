@@ -206,7 +206,7 @@
 // }else{
 //   console.log("Nothing");
 // }
-// console.log(number % 3 === 0 && number % 5 ===0 
+// console.log(number % 3 === 0 && number % 5 === 0 
 //   ? "FizzBuzz" 
 //   :number % 3 === 0 
 //   ? "Fizz"
@@ -246,8 +246,8 @@
 // let number = -1;
 // switch(true){
 //   case number > 0:
-//   console.log("This is a positive number");
-//   break;
+//    console.log("This is a positive number");
+//    break;
 //   case number === 0:
 //     console.log("This is zero number");
 //     break;
@@ -318,3 +318,82 @@
 
 // Break & Continue 
 
+// for (let index = 1; index <= 20; index++ ){
+  
+//   console.log(index);
+//   if(index === 10){
+//     break;
+//   }
+// }
+
+// for (let index = 1; index <= 20; index++){
+//   if(index === 10){
+//     continue;
+//   }
+//   console.log(index);
+// }
+
+// Infinite loop
+
+// for (let index = 1; ;index++){
+//   console.log(index);
+// }
+
+// Nested loop
+
+// for(let florin = 1; florin <= 3; florin++){
+//   for(let dld = 1;dld <= 3; dld++){
+//     console.log(florin, dld);
+//   }
+// }
+
+// String Basics
+
+// let message = "Hi My Name Is Florin";
+// console.log(message);
+// console.log(message.endsWith("Florin"));
+// console.log(message.startsWith("Hi"));
+// console.log(message.includes("Florin"));
+// console.log(message.toLowerCase());
+// console.log(message.toUpperCase());
+// console.log(message.charAt(1));
+
+
+// let message = "Hi my name is Hi Florin";
+// console.log(message);
+// console.log(message.search("Hi"));
+// console.log(message.indexOf("Hi"));
+// console.log(message.lastIndexOf("Hi"));
+
+
+
+// let message = "Hi My Name Is Hi Florin";
+// let temp = [1,2,3,4];
+// console.log(temp.toString());
+// console.log(temp[3]);
+// let m1 = "Hi";
+// let m2 = " My name";
+// let m3 = " Is Florin";
+// console.log(m1 + " " + m2 + " " + m3);
+// let m = m1.concat(m2,m3);
+// console.log(m);
+
+// let message = "Hi my name is Florin";
+// console.log(message.split(" "));
+
+// let message = "Hi my name is Hi Florin";
+// console.log(message.slice(0, 10));
+// console.log(message.slice(11, 17));
+// console.log(message.slice(3));
+// console.log(message.slice(-10,-1));
+// console.log(message.substring(0,2));
+// console.log(message.substr(0,4));
+
+// let message = "\tHi \\ my name is  \nFlorin 'It's a great day' ";
+// console.log(message);
+
+// String Immutability
+
+// let message = "ji Florin";
+// message = "Hi Flori" + " " +  "How are you?";
+// console.log(message);
