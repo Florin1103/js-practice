@@ -397,3 +397,108 @@
 // let message = "ji Florin";
 // message = "Hi Flori" + " " +  "How are you?";
 // console.log(message);
+
+// JavaScript Objects 
+
+// let name = "Florin";
+// let age = 31;
+// let hobby = "Reading";
+
+// const user = {
+//   name : "Florin",
+//   age : 31,
+//   hobby : "Reading"
+// };
+// console.log(user);
+// console.log(user.age);
+// console.log(user["name"]);
+// console.log(user.name);
+// console.log(name + " " + age + " " + hobby);
+
+// JavaScript Manipulation 
+
+// const user = {
+//   name: "Florin",
+//   age: 31,
+//   isMarried: true
+// }
+// // ADD
+// user.email = "florin@email.com"
+// user["phone"] = "123-456-789"
+
+// // UPDATE
+// user.isMarried = false;
+// user.phone = "987-654-321";
+// user.age = user.age + 5;
+
+// // DELETE 
+// delete user.phone;
+// console.log(user); 
+
+// JavaScript Object Methods and This keyword
+
+// const user = {
+//   name: "Florin",
+//   age: 31,
+//   friends: ["Florin", "Misu", "Robert"],
+//   selectColor: null,
+//   calculateAge: function(){
+//     console.log(`I am Florin and I am ${this.age} years old`);
+//   }
+// };
+// console.log(user.calculateAge());
+
+// Traversing Object
+
+// const user = {
+//   name: "Florin",
+//   age: 31,
+//   gender: "male",
+//   phone: "123-456-789",
+//   email: "florin@email.com",
+// }
+// // First way
+// for (let key in user){
+//   console.log(key,user[key]);
+// }
+
+// // Second way
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+
+// for (let val of Object.values(user)){
+//   console.log(val);
+// };
+// for (let val of Object.keys(user)){
+//   console.log(val);
+// };
+
+// Exercise Traversing Object
+
+// const salaries = {
+//   Florin: 1500,
+//   Robert: 3000,
+//   Claudiu: 1200,
+//   Ovidiu: 1700,
+//   Doru: 2800,
+// };
+
+// let sum = 0;
+
+// for (let key in salaries){
+//   console.log(key,salaries[key]);
+//   // sum = sum + salaries[key];
+//   sum += salaries[key];
+// }
+// console.log(sum);
+
+// console.log(Object.values(salaries));
+
+// for (let val of Object.values(salaries)){
+//   sum += val;
+// }
+// console.log(sum);
+
+
+// Object Destructuring
+
