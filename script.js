@@ -502,3 +502,109 @@
 
 // Object Destructuring
 
+// const user = {
+//   name: "Florin",
+//   age: 31,
+//   favBook: {
+//     bookName : "Count of Monte Cristo",
+//     bookAuthor: "Alexandre Dumas",
+//   }
+// }
+
+// const {name, age , favBook} = user;
+// const {bookAuthor, bookName} = favBook;
+
+// console.log(name);
+// console.log(age);
+// console.log(bookName);
+// console.log(bookAuthor);
+
+// Cloning an Object
+
+// const user = {
+//   name: "Florin",
+//   age: 31,
+// };
+
+// const copiedUser = {};
+// copiedUser["name"] = user.name;
+// copiedUser["age"] = user.age;
+
+// for (let key in user){
+//   console.log(key, user[key]);
+//   copiedUser[key] = user[key];
+// }
+// const copiedUser = Object.assign({},user);
+// console.log(copiedUser);
+
+
+// Math Object
+// console.log("PI");
+// console.log(Math.PI);
+
+// console.log("Random");
+// console.log(Math.random());
+
+// console.log("Round");
+// console.log(Math.round(4.4));
+
+// console.log("Ceil");
+// console.log(Math.ceil(1.5));
+// console.log(Math.ceil(-4.5));
+// console.log(Math.ceil(3.3));
+
+// console.log("Floor");
+// console.log(Math.floor(14.999));
+// console.log(Math.floor(-4.5));
+
+// console.log("Trunc");
+// console.log(Math.trunc(11.33));
+
+// console.log("Sign");
+// console.log(Math.sign(-4));
+// console.log(Math.sign(0));
+// console.log(Math.sign(4));
+
+// console.log("Pow");
+// console.log(Math.pow(2,2));
+// console.log(Math.pow(2,5));
+// console.log(Math.pow(3,5));
+
+// console.log("Sqrt");
+// console.log(Math.sqrt(8));
+// console.log(Math.sqrt(16));
+// console.log(Math.sqrt(32));
+// console.log(Math.sqrt(64));
+// console.log(Math.sqrt(9));
+
+// console.log("Abs");
+// console.log(Math.abs(-5.8));
+
+// console.log("Sin");
+// console.log(Math.sin(90 * 180));
+
+// console.log("Math min");
+// console.log(Math.min(30, 21, 44, 31, 120, 1001));
+// console.log(Math.min(44, 131, 24, 33, 191, 2002));
+
+// console.log("Math max");
+// console.log(Math.max(152, 586, 12, 369, 4582, 412, 325));
+
+// console.log("Math log");
+// console.log(Math.log(1));
+// console.log(Math.log(3));
+// console.log(Math.log(12));
+// console.log(Math.log(33));
+// console.log(Math.log10(33));
+
+
+
+// JSON Data Format
+
+const user = {
+  name: "Florin",
+  age: 31,
+};
+const jsonData = JSON.stringify(user);
+console.log(JSON.parse(jsonData));
+console.log(jsonData);
