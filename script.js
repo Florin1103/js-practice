@@ -269,36 +269,52 @@
 // While Loops 
 // let index = 1;
 
-// while(index <= 5){
+// while(index <= 44){
 //   console.log("Hello mate", index);
 //   index++;
 // }
 
 // Do..While Loops 
 
-// let service = 100;
+// let service = 1;
 
 // do{
 //   console.log("Hello mate!", service);
 //   service++;
-// }while(service <= 5);
+// }while(service <= 60);
 
 
 // For..In Loops
 
-const objs = {
-  name: "Florin",
-  age: 31,
-}
+// const objs = {
+//   name: "Florin",
+//   age: 31,
+// }
 
-for(let key in objs){
-  console.log(key, objs[key]);
-}
+// for(let key in objs){
+//   console.log(key, objs[key]);
+// }
 
-let numbers = [1, 2, 3, 4, 5];
+// let numbers = [1, 2, 3, 4, 5];
 
-console.log(numbers);
+// // console.log(numbers);
 
-for(let index in numbers){
-  console.log(index,numbers[index]);
-}
+// for(let index in numbers){
+//   console.log(index,numbers[index]);
+// }
+
+// For..of loop
+
+// let letters = ["a", "b", "c", "d", "e"];
+// // console.log(letters);
+
+// for(let num of letters){
+//   console.log(num);
+// }
+
+// for(let key in letters){
+//   console.log(key, letters[key]);
+// }
+
+// Break & Continue 
+
