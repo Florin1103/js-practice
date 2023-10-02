@@ -601,10 +601,25 @@
 
 // JSON Data Format
 
-const user = {
-  name: "Florin",
-  age: 31,
+// const user = {
+//   name: "Florin",
+//   age: 31,
+// };
+// const jsonData = JSON.stringify(user);
+// console.log(JSON.parse(jsonData));
+// console.log(jsonData);
+
+
+// Functions - Basics 
+
+// Function Declaration
+function aboutMe(name, age){
+  const message = `I am ${name} and I am ${age} years old`;
+  console.log(message);
+  
 };
-const jsonData = JSON.stringify(user);
-console.log(JSON.parse(jsonData));
-console.log(jsonData);
+aboutMe("Alex", 44);
+// Function Call
+
+
+
