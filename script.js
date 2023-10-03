@@ -613,13 +613,34 @@
 // Functions - Basics 
 
 // Function Declaration
-function aboutMe(name, age){
-  const message = `I am ${name} and I am ${age} years old`;
-  console.log(message);
+// function aboutMe(name, age){
+//   const message = `I am ${name} and I am ${age} years old`;
+//   console.log(message);
   
-};
-aboutMe("Alex", 44);
+// };
 // Function Call
 
+// aboutMe("Alex", 44);
 
 
+// let number1 = 20;
+// let number2 = 30;
+
+// function calcSum(number1,number2){
+//   let sum = number1 + number2;
+//   return sum;
+// }
+
+// let result = calcSum(10,25)
+
+
+// console.log(result);
+
+// Default parameters
+
+// function calcSum(number1, number2, number3 = 60){
+//   let sum = number1 + number2 +number3;
+//   return sum;
+// }
+
+// console.log(calcSum(10,50));
