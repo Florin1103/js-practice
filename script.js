@@ -644,3 +644,44 @@
 // }
 
 // console.log(calcSum(10,50));
+
+
+
+// Function expression
+
+// const calSumExp = function(number1,number2){
+//   let sum = number1 + number2;
+//   return sum
+// }
+
+// console.log(calSumExp(50,60));
+
+// Arrow function
+
+// const calSumArr = (number1,number2) => number1 + number2;
+// console.log(calSumArr(58,39));
+
+// const mulByTwo = function(number1){
+//   return number1 * 2;
+// }
+// console.log(mulByTwo(1246));
+
+// const mulByTwoArr = (number1) => number1 * 2;
+// console.log(mulByTwoArr(16));
+
+// Rest parameter 
+
+// function multiply(...args){
+//   console.log(args);
+//   let mulp = 1;
+//   for(let num of args){
+//     mulp = mulp * num;
+//   }
+//   return mulp;
+
+//   // return number1 * number2 * number3 * number4;
+// }
+// console.log(multiply(2,5,9,10,2,6,7,8,2,1,34,5));
+
+// Array basics
+
