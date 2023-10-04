@@ -224,3 +224,66 @@ Else print “31 days”. */
 // findDaysInMonth(2001,4);
 // findDaysInMonth(2001,5);
 
+/*Write a JavaScript function to print the “Hello World” message
+Function `displayMessage()` prints “Hello World” string using console.log() function.*/
+
+// function displayMessage(){
+//   console.log("Hello World!");
+// };
+// displayMessage();
+
+/* Write a function that returns the square of a number
+Function `findSquare()` returns the square of the input number which is passed as an argument in the function call.*/
+
+// function findSquare(num){
+//   return num * num;
+// }
+
+// console.log(findSquare(20));
+
+/* Write a function to convert Celsius to Fahrenheit
+Function `calFahrenheit()` returns the converted Celsius value to Fahrenheit value based on the formula `(Celsius × 9/5) + 32 = Fahrenheit`*/
+
+// function calFahrenheit(celcius){
+//   const fahrenheit = (celcius * 9/5) + 32;
+//   return fahrenheit;
+// }
+
+// console.log(calFahrenheit(50));
+// console.log(calFahrenheit(28.3));
+// console.log(calFahrenheit(13.1));
+// console.log(calFahrenheit(7));
+
+// function rectangleArea(width,height){
+//   const rectangle = width * height;
+//   return rectangle;
+// };
+
+// console.log(rectangleArea(5,8));
+
+/* Write a function to find the area and perimeter of a Circle
+Function `circleValues()` returns the perimeter and area of the circle provided the radius as an argument for the function call. */
+
+// function circleValues(radius){
+//   return `Perimeter is ${2  *Math.PI * radius} ,And area is ${Math.PI * radius * radius}`;
+// };
+
+// console.log(circleValues(10));
+
+/* Count number of Vowels in String
+Function `countVowel()` returns the number of vowels in input string.  */
+
+// function countVowel(str){
+//   let count = 0;
+//   str = str.toLowerCase();
+//   for (let i =0;i < str.length;i++){
+//     if(str.charAt(i) == "a" || str.charAt(i) == "e" || str.charAt(i) == "i" || str.charAt(i) == "o" || str.charAt(i) == "u"){
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+
+// console.log(countVowel("Book"));
+// console.log(countVowel("Reading"));
+// console.log(countVowel("Biking"));

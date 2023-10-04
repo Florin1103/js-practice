@@ -750,17 +750,92 @@
 
 // const numbers = [1,2,3,4,5];
 
-// for (let index = 0;index < numbers.length; index++){
 
+// for(let index = 0; index < numbers.length; index++){
 //   console.log(index,numbers[index]);
-// };
 
+// };
 // for (let num of numbers){
 //   console.log(num);
 // };
-// numbers.forEach(function(num, index){
-//   console.log(num, index);
+
+// numbers.forEach(function(num,index){
+//   console.log(num,index);
 // });
 
+// Sorting and Reversing an Array
+
+// const numbers = [6,8,7,2,1,9];
+// numbers.sort(); 
+// numbers.reverse();
+
+// console.log(numbers);
+
+// let doctors = [
+//   {name: "House", age: 45},
+//   {name:"Chase", age:31},
+// ]
+
+// doctors.sort(function(d1,d2){
+//   if(d1.age > d2.age) return +1;
+//   if(d1.age == d2.age) return 0;
+//   if(d1.age < d2.age) return -1;
+// }).reverse();
+// console.log(doctors);
+
+
+// Array method - every , some
+
+// const numbers = [6,8,7,-2,1,9];
+
+// const data = numbers.some(function(num){
+//   return num > 0;
+// });
+// console.log(data);
+
+// Array Method - concat , slice
+
+// const num1 = [1,2,3];
+// const num2 = [4,5,6,7];
+
+// const num = num1.concat(num2);
+// console.log(num);
+
+
+// const numbers = [1,2,3,4,5,6,7,8,9];
+// const sliceArray = numbers.slice(3,6);
+// console.log(sliceArray);
+
+// const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// const citrus = fruits.slice(1,3);
+// console.log(citrus);
+
+// Spread operator
+
+// numbers = [1,2,3,4,5,6,7,8];
+// console.log(...numbers);
+// console.log(numbers[0],numbers[1]);
+// console.log(numbers);
+
+// const copiedArray = [...numbers];
+// console.log(copiedArray);
+
+// const num1 = [1,2,3];
+// const num2 = [4,5,6];
+
+// const num = [...num1, ...num2];
+// console.log(num);
+
+
+// Joining Array 
+// let numbers = [1,2,3,4];
+// let joinArray = numbers.join(' ');
+// console.log(joinArray);
+
+// let message = "Hi my name is House";
+// let messageSplit = message.split(' ');
+// console.log(messageSplit);
+// let messageJoin = messageSplit.join('');
+// console.log(messageJoin)
 
 
