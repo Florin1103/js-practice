@@ -894,3 +894,39 @@
 
 // const onlyOddNumbers = numbers.filter((num) => num % 2 === 1);
 // console.log(onlyOddNumbers);
+
+
+// ES6 Feature : Array Method : Reduce
+
+// let numbers = [10,20,30];
+// let sum = 0;
+// for (let num of numbers){
+//   sum = sum + num;
+// };
+// console.log(sum);
+
+// const reduceSum = numbers.reduce((sum,num) => sum + num);
+// console.log(reduceSum);
+
+
+// ES6 Feature : Arra and Object Destructuring
+// function greeting(user){
+
+//   const {name,age,address} = user;
+//   const {street,number} = address;
+//   console.log(`Hello ${name} age ${age} from ${street}, ${number}`);
+// };
+// const user = {
+//   name: "House",
+//   age: 45,
+//   address : {
+//     street: "Princetone street",
+//     number: 121,
+//   },
+// };
+
+// greeting(user);
+
+// let [a,b,c,d] = [1,2,3,4];
+
+// console.log(a,b,c,d);
