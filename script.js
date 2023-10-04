@@ -839,3 +839,45 @@
 // console.log(messageJoin)
 
 
+// ES6 Feature - Map
+
+// let numbers = [1,2,3,4];
+// let mulByTwo = [];
+// for(let num of numbers){
+//   mulByTwo.push(num * 2);
+// }
+// console.log(mulByTwo);
+
+// const mulByTwo = numbers.map(function(num){
+//   return num * 2;
+// });
+// console.log(mulByTwo);
+
+
+// let numbers2 = [2,4,6,8];
+// const mulByTwoPractice = numbers2.map(function(num){
+//   return num * 2;
+// });
+
+// console.log(mulByTwoPractice);
+
+// let numbers3 = [3,6,9,12,15,18,21,24,27];
+
+// let mulByThree = numbers3.map(function(num){
+//   return num * 3;
+// });
+// console.log(mulByThree);
+
+// let numbers4 = [1,2,3,4,5,6,7];
+// let mulByFour = numbers4.map((num) => num * 4);
+// console.log(mulByFour);
+
+// let doctor = [
+//   {name: "House", age: 45},
+//   {name: "Chase", age: 31},
+//   {name: "Cameron", age: 30}
+// ];
+
+// const docName = doctor.map((doc) => doc.name);
+// console.log(docName);
+
