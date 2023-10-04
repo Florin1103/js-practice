@@ -685,3 +685,82 @@
 
 // Array basics
 
+// let friends = ["Chase", "House","Foreman","Taub","Cameron"];
+
+// console.log(friends);
+// console.log(friends[3]);
+// console.log(friends[1]);
+// console.log(friends[2]);
+// console.log(friends[0]);
+// console.log(friends[4]);
+
+// console.log(friends.length);
+// console.log(friends.slice(1,4));
+
+// Array - add data
+
+
+// const numbers = [12,13,14,17,18];
+// numbers.push(19,20,21,22,23,24,25);
+// numbers.splice(3,0,15,16);
+// numbers.unshift(9,10,11);
+// console.log(numbers);
+
+
+// Array - remove data
+
+// const numbers = [1,2,3,4,5,6,7,8];
+// numbers.shift();
+// numbers.shift();
+// numbers.shift();
+// numbers.pop();
+// numbers.pop();
+// numbers.pop();
+// numbers.splice(2,3);
+
+// console.log(numbers);
+
+
+// Array - find elements 
+
+// const numbers = [1,2,3,2,5,6,2,8];
+
+// console.log(numbers.includes(6,4));
+// console.log(numbers.indexOf(2));
+// console.log(numbers.indexOf(3));
+// console.log(numbers.lastIndexOf(2));
+// console.log(numbers);
+
+// Finding object in Array
+
+// const doctors = [
+//   {name: "House", age: 45},
+//   {name: "Chase", age: 26},
+//   {name: "Foreman", age: 33},
+// ];
+
+// const result = doctors.find(function(doctors){
+//   return doctors.age > 30 ;
+// });
+
+// console.log(result);
+
+
+// Iterating in Array
+
+// const numbers = [1,2,3,4,5];
+
+// for (let index = 0;index < numbers.length; index++){
+
+//   console.log(index,numbers[index]);
+// };
+
+// for (let num of numbers){
+//   console.log(num);
+// };
+// numbers.forEach(function(num, index){
+//   console.log(num, index);
+// });
+
+
+
