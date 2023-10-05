@@ -310,3 +310,40 @@ Function `countVowel()` returns the number of vowels in input string.  */
 // };
 
 // set.forEach((el) => console.log(el));
+
+
+// let multiply = m => m*m*m;
+// console.log(multiply(7));
+
+// let add = (m,n) => m+n;
+// console.log(add(5,9));
+
+// const Mango = {
+//   color: "Yellow",
+//   price: 120,
+//   weight: 120,
+//   about: function(){
+//     return `This mango price is ${this.price} USD`
+//   }
+// }
+
+// console.log(Mango.about());
+
+// class Fruit{
+//   constructor(name){
+//     this.name = name;
+//   }
+//   fol(){
+//     console.log(this.name+ " Is too tasty");
+//   }
+
+//   static jackfruit(){
+//     console.log("Jackfruit is a very popular fruit");
+//   }
+// }
+
+// let add = new Fruit("Mango");
+
+// add.fol();
+
+// Fruit.jackfruit();
