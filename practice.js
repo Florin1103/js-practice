@@ -287,3 +287,26 @@ Function `countVowel()` returns the number of vowels in input string.  */
 // console.log(countVowel("Book"));
 // console.log(countVowel("Reading"));
 // console.log(countVowel("Biking"));
+
+
+
+// let numbers = [2,3,4,5,6,7,8,9,10];
+// let multiplyByThree = numbers.map((num) => num * 3);
+// console.log(multiplyByThree);
+
+// let set = new Set();
+// set.add(230);
+// set.add(300);
+// set.add(430);
+// set.add(510);
+// set.add(230);
+// console.log(set);
+
+// set.delete(300);
+// console.log(set.size);
+
+// for(let el of set){
+//   console.log(el);
+// };
+
+// set.forEach((el) => console.log(el));

@@ -763,6 +763,8 @@
 //   console.log(num,index);
 // });
 
+// numbers.forEach((num,index) => console.log(num,index));
+
 // Sorting and Reversing an Array
 
 // const numbers = [6,8,7,2,1,9];
@@ -930,3 +932,101 @@
 // let [a,b,c,d] = [1,2,3,4];
 
 // console.log(a,b,c,d);
+
+// ES6 Data Structure : Set
+
+// let set = new Set();
+// set.add(100);
+// set.add(200);
+// set.add(300);
+// set.add(100);
+
+// console.log(set);
+// console.log(set.size);
+
+// set.delete(200);
+// console.log(set);
+// console.log(set.size);
+
+// for(let el of set){
+//   console.log(el);
+// }
+
+// set.forEach((el) => console.log(el));
+// set.clear();
+// console.log(set);
+
+
+// ES6 Data Structure : Map
+
+// let map = new Map();
+
+// map.set('Mango', 'Ame');
+// map.set('Banana', 'Kola');
+// map.set('Score', 100);
+
+// console.log(map);
+
+// for(let el of map){
+//   console.log(el);
+// };
+// console.log(map.has('Mango'));
+
+// map.delete('Banana');
+// console.log(map);
+
+// console.log(map.values());
+// console.log(map.keys());
+
+
+
+// Weak set , weak map
+
+// let ws = new WeakSet();
+
+// const object1 = {};
+// const object2 = {};
+
+// ws.add(object1);
+// ws.add(object2);
+
+
+// console.log(ws);
+
+// console.log(ws.has(object1));
+// console.log(ws.has(object2));
+
+// ws.delete(object1);
+// console.log(ws.has(object1));
+
+
+// const wm = new WeakMap();
+
+// wm.set(object1, 123456);
+// console.log(wm.has(object1));
+// console.log(wm.get(object1));
+
+// wm.delete(object1);
+// console.log(wm.has(object1));
+
+// Module
+// import addNumber from "./main.js";
+
+
+
+// console.log(addNumber(10,30));
+
+// Pad start , pad end / Trim Start , Trim End
+
+// let minute = '4';
+// let hour = '8';
+
+// console.log(minute.padStart(5));
+// console.log(hour.padEnd(5,'0'));
+
+// let trimname = '     House     ';
+
+// console.log(trimname.length);
+
+// trimname = trimname.trimEnd();
+// console.log(trimname);
